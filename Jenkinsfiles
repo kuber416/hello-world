@@ -12,7 +12,7 @@ pipeline {
                 echo 'testing'    
             }
         }
-          stage('deploy') {
+          stage('kuber') {
             steps {
                 echo 'deploying'  
             }
